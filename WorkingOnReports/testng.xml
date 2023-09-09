@@ -16,4 +16,9 @@
     <class name="mypackage.Gmail"></class>
     </classes>
   </test> 
+  <test thread-count="5" name="TestRediff">
+    <classes>
+    <class name="mypackage.RediffMail"></class>
+    </classes>
+  </test> 
 </suite> <!-- Suite -->
