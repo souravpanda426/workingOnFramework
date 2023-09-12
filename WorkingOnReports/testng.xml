@@ -21,4 +21,18 @@
     <class name="mypackage.RediffMail"></class>
     </classes>
   </test> 
+  
+  <test thread-count="5" name="TestRedifftitle">
+    <classes>
+    <class name="mypackage.NewTest"></class>
+    </classes>
+  </test> 
+  
+   <test thread-count="5" name="TestRedifftitle">
+    <classes>
+    <class name="mypackage.InvalidLogin"></class>
+    </classes>
+  </test> 
+  
+  
 </suite> <!-- Suite -->
