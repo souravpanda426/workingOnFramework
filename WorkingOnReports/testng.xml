@@ -28,7 +28,7 @@
     </classes>
   </test> 
   
-   <test thread-count="5" name="TestRedifftitle">
+   <test thread-count="5" name="NewTestcase5678">
     <classes>
     <class name="mypackage.InvalidLogin"></class>
     </classes>
