@@ -35,4 +35,11 @@
   </test> 
   
   
+  <test thread-count="5" name="TestCase-5328">
+    <classes>
+    <class name="mypackage.Gmaildisplayed"></class>
+    </classes>
+  </test> 
+  
+  
 </suite> <!-- Suite -->
