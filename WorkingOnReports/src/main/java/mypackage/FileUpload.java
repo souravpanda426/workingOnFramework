@@ -11,7 +11,10 @@ public class FileUpload extends BaseTest{
 	@Test
 	public void fileUploading() throws InterruptedException {
 		
+		
     test=extent.createTest("testfileupload", "need to upload an file");
+    
+    System.out.println("hello");
 
 	driver.get("https://www.selenium.dev/");
 	driver.findElement(By.linkText("About")).click();
