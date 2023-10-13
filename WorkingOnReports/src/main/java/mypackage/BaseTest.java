@@ -42,7 +42,7 @@ public class BaseTest {
 	htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
 	htmlReporter.config().setTheme(Theme.DARK);
 	//System.setProperty("webdriver.gecko.driver", "/Users/sourav/eclipse-workspace/AUTOMATIONS/src/main/resources/driver/geckodriver");
-	 driver = new ChromeDriver();
+	 driver = new firefoxDriver();
 	
 	
 	
