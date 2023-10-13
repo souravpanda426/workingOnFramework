@@ -1,5 +1,7 @@
 package mypackage;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
@@ -12,8 +14,8 @@ public class GetUrl	 extends BaseTest{
 	  
 	  
 	    test=extent.createTest("URL", "current url");
-		
 		driver.get("https://www.google.com");
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		System.out.println(driver.getCurrentUrl());
 		driver.close();
 		
