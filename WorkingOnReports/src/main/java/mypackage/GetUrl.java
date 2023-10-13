@@ -12,8 +12,7 @@ public class GetUrl	 extends BaseTest{
 	  
 	  
 	    test=extent.createTest("URL", "current url");
-		System.setProperty("webdriver.gecko.driver", "/Users/sourav/eclipse-workspace/AUTOMATIONS/src/main/resources/driver/geckodriver");
-		WebDriver driver = new FirefoxDriver();
+		
 		driver.get("https://www.google.com");
 		System.out.println(driver.getCurrentUrl());
 		driver.close();
